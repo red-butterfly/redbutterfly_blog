@@ -1,7 +1,9 @@
 # -*- coding: UTF-8 -*-
 from django.shortcuts import render,render_to_response,HttpResponseRedirect
 from django.contrib.auth import authenticate,login as auth_login,logout as auth_logout
+from django.http import JsonResponse
 from .models import * 
+from redpackage.aboutsys.getsysinfo import *
 
 # Create your views here.
 
@@ -12,11 +14,18 @@ def page_error(request):
 	return render(request,'500.html')
 
 def index(request):
+	sysinfo = {}
+	cpumeminfo = GetCpuMemInfo()
+	sysinfo['cpuused'] = str(cpumeminfo[0])
+	sysinfo['memused'] = str(cpumeminfo[3])
+	sysinfo['diskused'] = str(GetDiskInfo()[2])	
 	if request.user.is_authenticated():
 		username = request.user.username
 	else:
 		username = "None"
-	return render( request, 'index.html',{"username":username})
+
+		
+	return render( request, 'index.html',{"username":username,"sysinfo":sysinfo})
 
 def login(request):
 	"""
@@ -100,5 +109,15 @@ def login(request):
 	login_alert = u"请输入用户名密码"	
 	return render( request, 'page_user_login.html',{"login_alert":login_alert})
 
+def sysinfo(request):
+	sysinfo = {}
+	cpumeminfo = GetCpuMemInfo()
+	sysinfo['cpuused'] = str(cpumeminfo[0])
+	sysinfo['memused'] = str(cpumeminfo[3])
+	sysinfo['diskused'] = str(GetDiskInfo()[2])	
+	print sysinfo
+
+	return JsonResponse(sysinfo)
+	
 	
 
