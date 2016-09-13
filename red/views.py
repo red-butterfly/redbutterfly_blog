@@ -4,6 +4,11 @@ from django.contrib.auth import authenticate,login as auth_login,logout as auth_
 from django.http import JsonResponse
 from .models import * 
 from redpackage.aboutsys.getsysinfo import *
+from django.core.cache import cache
+from django.conf import settings
+import redis
+
+#redishandle = redis.Redis(host='localhost',port=6379,db=2) 
 
 # Create your views here.
 
@@ -14,18 +19,40 @@ def page_error(request):
 	return render(request,'500.html')
 
 def index(request):
+	if not cache.has_key('visit:index'):
+		cache.set('visit:index',1,25)
+		cache.persist('visit:index')
+	else:
+		cache.incr('visit:index')
+		
 	sysinfo = {}
 	cpumeminfo = GetCpuMemInfo()
 	sysinfo['cpuused'] = str(cpumeminfo[0])
 	sysinfo['memused'] = str(cpumeminfo[3])
 	sysinfo['diskused'] = str(GetDiskInfo()[2])	
+	
+	info = {}
+	artclelist = Article.objects.all()
+	info['crt'] = cache.get('visit:index')
+	info['articleNum'] = len(artclelist)
+	info['comments'] = 0
+	info['newtask'] = 0
+	
+	articles = []
+	for i,article in enumerate(artclelist):
+		if i >= 4:
+			break
+		articles.append({"title":article.title,"summary":article.summary})
+			
 	if request.user.is_authenticated():
 		username = request.user.username
 	else:
 		username = "None"
-
 		
-	return render( request, 'index.html',{"username":username,"sysinfo":sysinfo})
+	return render( request, 'index.html',{"username":username,
+		"sysinfo":sysinfo,
+		"info":info,
+		"articles":articles})
 
 def login(request):
 	"""
@@ -115,7 +142,6 @@ def sysinfo(request):
 	sysinfo['cpuused'] = str(cpumeminfo[0])
 	sysinfo['memused'] = str(cpumeminfo[3])
 	sysinfo['diskused'] = str(GetDiskInfo()[2])	
-	print sysinfo
 
 	return JsonResponse(sysinfo)
 	

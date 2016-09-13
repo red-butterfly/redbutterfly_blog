@@ -7,8 +7,8 @@ from django.contrib.auth.models import AbstractUser
 # Create your models here.
 
 import sys
-#reload(sys)
-#sys.setdefaultencoding( "utf-8" )
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 class User(AbstractUser):
 	address = models.CharField(u'地址',max_length=150,blank=True) 
@@ -18,7 +18,7 @@ class User(AbstractUser):
 	phone = models.CharField(u'电话',max_length=15,blank=True)
 	heading = models.ImageField(u'头像',blank=True)
 
-	def __str__(self):
+	def __unicode__(self):
 		return self.username	
 
 class Tag(models.Model):
@@ -27,7 +27,7 @@ class Tag(models.Model):
 	tagcreatedata = models.DateTimeField(u'标签创建时间',auto_now_add=True)
 	tagtips = models.IntegerField(u'标签访问量')
 	
-	def __str__(self):
+	def __unicode__(self):
 		return self.tagname
 
 	def get_article(self):
@@ -44,7 +44,7 @@ class blogtype(models.Model):
 	count = models.IntegerField(u'作品数量')
 	tips = models.IntegerField(u'类型访问量')
 	
-	def __str__(self):
+	def __unicode__(self):
 		return self.typename
 	
 	def get_article(self):
@@ -68,8 +68,23 @@ class Article(models.Model):
 	publishtime = models.DateTimeField(u'上传时间',auto_now_add=True)
 	last_mod_time = models.DateTimeField(u'修改时间',auto_now=True)
 	readtimes = models.IntegerField(u'阅读量',default=0)
-	
-	def __str__(self):
+
+	def save(self,*args,**kwargs):
+		add_new = False
+		if self.id == None:
+			add_new = True
+		super(Article,self).save(*args,**kwargs)
+		if add_new:
+			self.typefor.count = self.typefor.count + 1
+			self.typefor.save() 
+
+	def delete(self,*args,**kwargs):
+		tmp = self.typefor
+		super(Article,self).delete(*args,**kwargs)		
+		tmp.count = tmp.count - 1
+		tmp.save()
+
+	def __unicode__(self):
 		return self.title
 	
 	def get_tags(self):
@@ -120,7 +135,7 @@ class Comment(models.Model):
 	content = models.TextField(u'评论内容')
 	replaytime = models.DateTimeField(u'评论时间',auto_now_add=True)
 	
-	def __str__(self):
+	def __unicode__(self):
 		return self.user
 
 
