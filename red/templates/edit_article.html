@@ -121,7 +121,7 @@
                                                     <select class="bs-select form-control" name="article_author">
                                                         {% for authorname in authorlist %}
                                                         {% if authorname == post_data.author %}
-                                                        <option value="{{authorname}}" >{{authorname}}</option>
+                                                        <option value="{{authorname}}" selected>{{authorname}}</option>
                                                         {% else %}
                                                         <option value="{{authorname}}" >{{authorname}}</option>
                                                         {% endif %}

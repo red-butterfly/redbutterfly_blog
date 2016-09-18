@@ -17,19 +17,19 @@ from django.conf.urls.static import static
 from django.conf import settings
 from django.conf.urls import url
 from django.contrib import admin
-from red import views as red_views
+from red import index_views,article_views
 from django.conf.urls import handler404,handler500
 
 handler404 = "red.views.page_not_found"
 handler500 = "red.views.page_error"
 
 urlpatterns = [
-	url(r'^$', red_views.index, name='index'),
-	url(r'^login/$', red_views.login, name='login'),
-	url(r'^article/$', red_views.article, name='article'),
-	url(r'^articlelist/$', red_views.articlelist, name='articlelist'),
-	url(r'^article/add/$', red_views.edit_article, name='edit_article'),
-	url(r'^sysinfo/$',red_views.sysinfo, name='sysinfo'),
+	url(r'^$', index_views.index, name='index'),
+	url(r'^login/$', index_views.login, name='login'),
+	url(r'^article/$', article_views.article, name='article'),
+	url(r'^articlelist/$', article_views.articlelist, name='articlelist'),
+	url(r'^article/add/$', article_views.edit_article, name='edit_article'),
+	url(r'^sysinfo/$',index_views.sysinfo, name='sysinfo'),
 	url(r'^admin/', admin.site.urls),
 	
 ]
