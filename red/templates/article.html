@@ -1,0 +1,275 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+    {% block title %}
+    RedButterfly | Article
+    {% endblock %}
+
+    {% block extracss %}
+        <!-- BEGIN PAGE LEVEL STYLES -->
+        <link href="{% static "redbutterfly/pages/css/blog.min.css" %}" rel="stylesheet" type="text/css" />
+        <!-- END PAGE LEVEL STYLES -->
+    {% endblock %}
+
+        {% block content %}
+                    <!-- BEGIN PAGE BAR -->
+                    <div class="page-bar">
+                        <ul class="page-breadcrumb">
+                            <li>
+                                <a href="/">Home</a>
+                                <i class="fa fa-circle"></i>
+                            </li>
+                            <li>
+                                <span>文章</span>
+                            </li>
+                        </ul>
+                        <div class="page-toolbar">
+                            <div class="btn-group pull-right">
+                                <button type="button" class="btn green btn-sm btn-outline dropdown-toggle" data-toggle="dropdown"> Actions
+                                    <i class="fa fa-angle-down"></i>
+                                </button>
+                                <ul class="dropdown-menu pull-right" role="menu">
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-bell"></i> Action</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-shield"></i> Another action</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-user"></i> Something else here</a>
+                                    </li>
+                                    <li class="divider"> </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-bag"></i> Separated link</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PAGE BAR -->
+                    <!-- BEGIN PAGE TITLE-->
+                    <h3 class="page-title"> Blog
+                        <small>blog post samples</small>
+                    </h3>
+                    <!-- END PAGE TITLE-->
+                    <!-- END PAGE HEADER-->
+                    <div class="blog-page blog-content-2">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <div class="blog-single-content bordered blog-container">
+                                    <div class="blog-single-head">
+                                        <h1 class="blog-single-head-title">{{ articleinfo.title }}</h1>
+                                        <div class="blog-single-head-date">
+                                            <a href="/article/add/?title={{articleinfo.title}}" class="btn btn-circle btn-xs red font-white"> Edit
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                            <i class="icon-calendar font-blue"></i>
+                                            <a href="javascript:;">{{articleinfo.date}}</a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-single-img">
+                                        <img src="{% static "redbutterfly/pages/img/background/4.jpg" %}" /> </div>
+                                    <div class="blog-single-desc">
+                                        {{articleinfo.content|escape|linebreaks}}
+                                    </div>
+                                    <div class="blog-single-foot">
+                                        <ul class="blog-post-tags">
+                                            {% for tagname in taglist %}
+                                            <li class="uppercase">
+                                                <a href="javascript:;">{{tagname}}</a>
+                                            </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                    <div class="blog-comments">
+                                        <h3 class="sbold blog-comments-title">Comments(30)</h3>
+                                        <div class="c-comment-list">
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <a href="#">
+                                                        <img class="media-object" alt="" src="{% static "redbutterfly/pages/img/avatars/team1.jpg" %}"> </a>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">
+                                                        <a href="#">Sean</a> on
+                                                        <span class="c-date">23 May 2015, 10:40AM</span>
+                                                    </h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <a href="#">
+                                                        <img class="media-object" alt="" src="{% static "redbutterfly/pages/img/avatars/team3.jpg" %}"> </a>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">
+                                                        <a href="#">Strong Strong</a> on
+                                                        <span class="c-date">21 May 2015, 11:40AM</span>
+                                                    </h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                                                    <div class="media">
+                                                        <div class="media-left">
+                                                            <a href="#">
+                                                                <img class="media-object" alt="" src="{% static "redbutterfly/pages/img/avatars/team4.jpg" %}"> </a>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">
+                                                                <a href="#">Emma Stone</a> on
+                                                                <span class="c-date">30 May 2015, 9:40PM</span>
+                                                            </h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <a href="#">
+                                                        <img class="media-object" alt="" src="{% static "redbutterfly/pages/img/avatars/team7.jpg" %}"> </a>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">
+                                                        <a href="#">Nick Nilson</a> on
+                                                        <span class="c-date">30 May 2015, 9:40PM</span>
+                                                    </h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </div>
+                                            </div>
+                                        </div>
+                                        <h3 class="sbold blog-comments-title">Leave A Comment</h3>
+                                        <form action="#">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Your Name" class="form-control c-square"> </div>
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Your Email" class="form-control c-square"> </div>
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Your Website" class="form-control c-square"> </div>
+                                            <div class="form-group">
+                                                <textarea rows="8" name="message" placeholder="Write comment here ..." class="form-control c-square"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <button type="submit" class="btn blue uppercase btn-md sbold btn-block">Submit</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="blog-single-sidebar bordered blog-container">
+                                    <div class="blog-single-sidebar-search">
+                                        <div class="input-icon right">
+                                            <i class="icon-magnifier"></i>
+                                            <input type="text" class="form-control" placeholder="Search Blog"> </div>
+                                    </div>
+                                    <div class="blog-single-sidebar-recent">
+                                        <h3 class="blog-sidebar-title uppercase">Recent Posts</h3>
+                                        <ul>
+                                            <li>
+                                                <a href="javascript:;">Metronic Admin Progress</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">New UI Features</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">Lorem Ipsum Dolore Amet</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">Userfull Pages Released</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="blog-single-sidebar-tags">
+                                        <h3 class="blog-sidebar-title uppercase">Tags</h3>
+                                        <ul class="blog-post-tags">
+                                            <li class="uppercase">
+                                                <a href="javascript:;">Bootstrap</a>
+                                            </li>
+                                            <li class="uppercase">
+                                                <a href="javascript:;">Sass</a>
+                                            </li>
+                                            <li class="uppercase">
+                                                <a href="javascript:;">HTML</a>
+                                            </li>
+                                            <li class="uppercase">
+                                                <a href="javascript:;">CSS</a>
+                                            </li>
+                                            <li class="uppercase">
+                                                <a href="javascript:;">Gulp</a>
+                                            </li>
+                                            <li class="uppercase">
+                                                <a href="javascript:;">Framework</a>
+                                            </li>
+                                            <li class="uppercase">
+                                                <a href="javascript:;">Admin Theme</a>
+                                            </li>
+                                            <li class="uppercase">
+                                                <a href="javascript:;">UI Features</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="blog-single-sidebar-links">
+                                        <h3 class="blog-sidebar-title uppercase">Useful Links</h3>
+                                        <ul>
+                                            <li>
+                                                <a href="javascript:;">Lorem Ipsum </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">Dolore Amet</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">Metronic Database</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">UI Features</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">Advanced Forms</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="blog-single-sidebar-ui">
+                                        <h3 class="blog-sidebar-title uppercase">UI Examples</h3>
+                                        <div class="row ui-margin">
+                                            <div class="col-xs-4 ui-padding">
+                                                <a href="javascript:;">
+                                                    <img src="{% static "redbutterfly/pages/img/background/1.jpg" %}" />
+                                                </a>
+                                            </div>
+                                            <div class="col-xs-4 ui-padding">
+                                                <a href="javascript:;">
+                                                    <img src="{% static "redbutterfly/pages/img/background/37.jpg" %}" />
+                                                </a>
+                                            </div>
+                                            <div class="col-xs-4 ui-padding">
+                                                <a href="javascript:;">
+                                                    <img src="{% static "redbutterfly/pages/img/background/57.jpg" %}" />
+                                                </a>
+                                            </div>
+                                            <div class="col-xs-4 ui-padding">
+                                                <a href="javascript:;">
+                                                    <img src="{% static "redbutterfly/pages/img/background/53.jpg" %}" />
+                                                </a>
+                                            </div>
+                                            <div class="col-xs-4 ui-padding">
+                                                <a href="javascript:;">
+                                                    <img src="{% static "redbutterfly/pages/img/background/59.jpg" %}" />
+                                                </a>
+                                            </div>
+                                            <div class="col-xs-4 ui-padding">
+                                                <a href="javascript:;">
+                                                    <img src="{% static "redbutterfly/pages/img/background/42.jpg" %}" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endblock %}
+    {% block extrajs %}
+        <!-- BEGIN PAGE LEVEL PLUGINS -->
+
+        <script src="{% static "redbutterfly/global/plugins/morris/morris.min.js" %}" type="text/javascript"></script>
+        <script src="{% static "redbutterfly/global/plugins/morris/raphael-min.js" %}" type="text/javascript"></script>
+
+        <!-- END PAGE LEVEL PLUGINS -->
+    {% endblock %}

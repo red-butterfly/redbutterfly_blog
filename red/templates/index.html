@@ -7,6 +7,7 @@
 
     {% block extracss %}
         <!-- BEGIN PAGE LEVEL PLUGINS -->
+        <link href="{% static "redbutterfly/pages/css/blog.min.css" %}" rel="stylesheet" type="text/css" />
         <link href="{% static "redbutterfly/global/plugins/bootstrap-daterangepicker/daterangepicker.min.css" %}" rel="stylesheet" type="text/css" />
         <link href="{% static "redbutterfly/global/plugins/morris/morris.css" %}" rel="stylesheet" type="text/css" />
         <link href="{% static "redbutterfly/global/plugins/fullcalendar/fullcalendar.min.css" %}" rel="stylesheet" type="text/css" />
@@ -20,7 +21,7 @@
                     <div class="page-bar">
                         <ul class="page-breadcrumb">
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="/">Home</a>
                                 <i class="fa fa-circle"></i>
                             </li>
                             <li>
@@ -97,7 +98,7 @@
                     </div>
                     
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 col-sm-12">
                                 <div class="portlet light bordered">
                                     <div class="portlet-title">
                                         <div class="caption">
@@ -105,16 +106,119 @@
                                             <span class="caption-subject font-purple bold uppercase">我的文章</span>
                                         </div>
                                         <div class="actions">
-                                            <a href="javascript:;" class="btn btn-circle btn-xs red"> More
+                                            <a href="/articlelist/" class="btn btn-circle btn-xs red"> More
                                                 <i class="fa fa-plus"></i>
+                                            </a>
+                                            <a href="/article/add" class="btn btn-circle btn-xs blue"> Add
+                                                <i class="fa fa-file-o"></i>
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="portlet-body">
-                                        {% for article in articles %}
-                                        <div class="well well-large">
-                                            <h4><a href="/article">{{ article.title }}</a></h4> {{ article.summary }} </div>
-                                        {% endfor %}
+                                    <div class="blog-page blog-content-1">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                {% for article in articles_line1 %}
+                                                    {% if forloop.counter == 1 %}
+                                                    <div class="blog-post-lg bordered blog-container">
+                                                        <div class="blog-post-content">
+                                                            <h2 class="blog-title blog-post-title">
+                                                                <a href="/article/?title={{ article.title }}">{{ article.title }}</a>
+                                                            </h2>
+                                                            <p class="blog-post-desc"> {{ article.summary }} </p>
+                                                            <div class="blog-post-foot">
+                                                                <div class="blog-post-meta">
+                                                                    <i class="icon-calendar font-blue"></i>
+                                                                    <a href="javascript:;">{{ article.date }}</a>
+                                                                </div>
+                                                                <div class="blog-post-meta">
+                                                                    <i class="icon-bubble font-blue"></i>
+                                                                    <a href="javascript:;">14 Comments</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    {% else %}
+                                                        {% if forloop.counter == 2 %}
+                                                    <div class="row">
+                                                        {% endif %}
+                                                        <div class="col-sm-6">
+                                                            <div class="blog-post-sm bordered blog-container">
+                                                                <div class="blog-post-content">
+                                                                    <h2 class="blog-title blog-post-title">
+                                                                        <a href="/article/?title={{ article.title }}">{{ article.title }}</a>
+                                                                    </h2>
+                                                                    <p class="blog-post-desc"> {{ article.summary }}y </p>
+                                                                    <div class="blog-post-foot">
+                                                                        <div class="blog-post-meta">
+                                                                            <i class="icon-calendar font-blue"></i>
+                                                                            <a href="javascript:;">{{ article.date }}</a>
+                                                                        </div>
+                                                                        <div class="blog-post-meta">
+                                                                            <i class="icon-bubble font-blue"></i>
+                                                                            <a href="javascript:;">14 Comments</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        {% if forloop.counter == 3 %}    
+                                                    </div>
+                                                        {% endif %}
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </div>
+                                            <div class="col-lg-6">
+                                                {% for article in articles_line2 %}
+                                                    {% if forloop.counter == 3 %}
+                                                    <div class="blog-post-lg bordered blog-container">
+                                                        <div class="blog-post-content">
+                                                            <h2 class="blog-title blog-post-title">
+                                                                <a href="/article/?title={{ article.title }}">{{ article.title }}</a>
+                                                            </h2>
+                                                            <p class="blog-post-desc"> {{ article.summary }} </p>
+                                                            <div class="blog-post-foot">
+                                                                <div class="blog-post-meta">
+                                                                    <i class="icon-calendar font-blue"></i>
+                                                                    <a href="javascript:;">{{ article.date }}</a>
+                                                                </div>
+                                                                <div class="blog-post-meta">
+                                                                    <i class="icon-bubble font-blue"></i>
+                                                                    <a href="javascript:;">14 Comments</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    {% else %}
+                                                        {% if forloop.counter == 1 %}
+                                                    <div class="row">
+                                                        {% endif %}
+                                                        <div class="col-sm-6">
+                                                            <div class="blog-post-sm bordered blog-container">
+                                                                <div class="blog-post-content">
+                                                                    <h2 class="blog-title blog-post-title">
+                                                                        <a href="/article/?title={{ article.title }}">{{ article.title }}</a>
+                                                                    </h2>
+                                                                    <p class="blog-post-desc"> {{ article.summary }}y </p>
+                                                                    <div class="blog-post-foot">
+                                                                        <div class="blog-post-meta">
+                                                                            <i class="icon-calendar font-blue"></i>
+                                                                            <a href="javascript:;">{{ article.date }}</a>
+                                                                        </div>
+                                                                        <div class="blog-post-meta">
+                                                                            <i class="icon-bubble font-blue"></i>
+                                                                            <a href="javascript:;">14 Comments</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        {% if forloop.counter == 2 %}    
+                                                    </div>
+                                                        {% endif %}
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </div>                                        
+                                        </div>
                                     </div>
                                 </div>
                         </div>
