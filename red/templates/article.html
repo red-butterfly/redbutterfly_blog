@@ -74,7 +74,7 @@
                                     <div class="blog-single-img">
                                         <img src="{% static "redbutterfly/pages/img/background/4.jpg" %}" /> </div>
                                     <div class="blog-single-desc">
-                                        {{articleinfo.content|escape|linebreaks}}
+                                        {{articleinfo.content | safe}}
                                     </div>
                                     <div class="blog-single-foot">
                                         <ul class="blog-post-tags">

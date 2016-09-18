@@ -6,6 +6,7 @@ from .models import *
 from redpackage.aboutsys.getsysinfo import *
 from django.core.cache import cache
 from django.conf import settings
+from markdown import markdown
 
 # Create your views here.
 
@@ -156,7 +157,7 @@ def article(request):
 	articleinfo = {}
 	taglist = []
 	articleinfo['title'] = article.title
-	articleinfo['content'] = article.content
+	articleinfo['content'] = markdown(article.content)
 	articleinfo['date'] = article.last_mod_time
 	for tmp in article.tags.all():
 		taglist.append(tmp.tagname)
@@ -205,6 +206,8 @@ def edit_article(request):
 			tagtmp.tagcount = tagtmp.tagcount + 1
 			tagtmp.save()		
 			newArt.tags.add(Tag.objects.get(tagname=tmp))
+		return HttpResponseRedirect( '/article/?title=%s' % post_data['title'] )
+		
 		
 	elif request.method == 'GET':
 		for typetmp in blogtype.objects.all():
@@ -217,8 +220,8 @@ def edit_article(request):
 			gettitle = request.GET['title']
 			article = Article.objects.get(title=gettitle)
 			post_data['title'] = article.title
-			post_data['type'] = article.typefor
-			post_data['author'] = article.auther
+			post_data['type'] = article.typefor.typename
+			post_data['author'] = article.auther.username
 			post_data['tag'] = article.tags
 			post_data['content'] = article.content
 			post_data['summary'] = article.summary
