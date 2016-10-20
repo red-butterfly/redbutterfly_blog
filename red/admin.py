@@ -6,6 +6,6 @@ from .models import *
 
 admin.site.register(User)
 admin.site.register(Tag)
-admin.site.register(blogtype)
+admin.site.register(Blogtype)
 admin.site.register(Article)
 admin.site.register(Comment)

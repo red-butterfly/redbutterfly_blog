@@ -113,6 +113,7 @@ REDIS_TIMEOUT=7*24*60*60
 CUBES_REDIS_TIMEOUT=60*60
 NEVER_REDIS_TIMEOUT=365*24*60*60
 
+LOGIN_URL='/login/'
 
 AUTH_USER_MODEL = 'red.User'
 AUTHENTICATION_BACKENDS = ('django.contrib.auth.backends.ModelBackend',)
@@ -155,4 +156,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-MEDIA_URL = '/media/'
+MEDIA_ROOT ='media/'
+
+MEDIA_URL = 'media/'

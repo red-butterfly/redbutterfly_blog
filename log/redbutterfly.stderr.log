@@ -1,0 +1,2242 @@
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:29:05 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :9001 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291168 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI worker 1 (pid: 28061, cores: 1)
+spawned uWSGI worker 2 (pid: 28062, cores: 1)
+spawned uWSGI worker 3 (pid: 28063, cores: 1)
+spawned uWSGI worker 4 (pid: 28064, cores: 1)
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:30:25 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :9001 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291168 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI worker 1 (pid: 28155, cores: 1)
+spawned uWSGI worker 2 (pid: 28156, cores: 1)
+spawned uWSGI worker 3 (pid: 28157, cores: 1)
+spawned uWSGI worker 4 (pid: 28158, cores: 1)
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:30:58 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:30:59 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:00 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:01 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:02 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:03 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:04 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:05 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:06 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:07 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:08 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:09 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:10 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:11 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:12 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:13 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:14 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:15 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:16 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:17 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:18 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:19 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:20 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:21 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:22 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:23 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:24 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:25 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:26 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:27 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:28 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:29 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:30 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:31 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:32 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:33 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:34 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:35 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:36 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:37 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:38 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:39 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:40 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:41 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:42 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:43 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:44 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:45 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:46 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:47 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:48 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:49 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:50 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:51 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:52 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:53 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:54 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:55 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:56 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:57 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:58 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:31:59 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:32:00 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:32:01 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:32:02 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:32:03 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:32:04 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:32:05 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:32:06 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:32:07 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:32:08 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:32:09 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:32:10 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:32:11 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:32:12 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:19 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:20 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:21 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:22 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:23 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:24 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:25 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:26 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:27 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:28 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:29 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:30 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:31 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:32 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:33 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:34 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:35 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:36 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:37 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:38 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:39 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:33:39 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9001).
+bind(): Address already in use [core/socket.c line 763]
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Mon Oct 10 18:41:35 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :9001 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 405856 bytes (396 KB) for 4 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI worker 1 (pid: 28431, cores: 1)
+spawned uWSGI worker 2 (pid: 28432, cores: 1)
+spawned uWSGI worker 3 (pid: 28433, cores: 1)
+spawned uWSGI worker 4 (pid: 28434, cores: 1)
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+[uWSGI] parsing config file /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin/django_redbutterfly.xml
+*** Starting uWSGI 2.0.12 (64bit) on [Mon Oct 10 18:47:13 2016] ***
+compiled with version: 4.8.2 on 17 March 2016 17:28:44
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: AliUbuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/hanfei/project/django/redbutterfly/redbutterfly_blog/bin
+detected binary path: /usr/sbin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/hanfei/project/django/redbutterfly/redbutterfly_blog
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :9001 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xcc3270
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 405728 bytes (396 KB) for 4 cores
+*** Operational MODE: preforking ***
+ImportError: No module named extension
+unable to load app 0 (mountpoint='') (callable not found or import error)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xcc3270 pid: 28901 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 28901, cores: 1)
+spawned uWSGI worker 2 (pid: 28904, cores: 1)
+spawned uWSGI worker 3 (pid: 28905, cores: 1)
+spawned uWSGI worker 4 (pid: 28906, cores: 1)
+./redbutterfly/urls.py:35: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
+
+[pid: 28901|app: 0|req: 1/1] 223.71.212.161 () {42 vars in 773 bytes} [Mon Oct 10 10:47:18 2016] GET / => generated 164416 bytes in 321 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+./redbutterfly/urls.py:35: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
+
+[pid: 28904|app: 0|req: 1/2] 223.71.212.161 () {42 vars in 806 bytes} [Mon Oct 10 10:47:37 2016] GET /article/?id=11 => generated 108894 bytes in 183 msecs (HTTP/1.1 200) 5 headers in 268 bytes (1 switches on core 0)
+./redbutterfly/urls.py:35: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
+
+[pid: 28905|app: 0|req: 1/3] 223.71.212.161 () {42 vars in 793 bytes} [Mon Oct 10 10:47:42 2016] GET / => generated 164417 bytes in 319 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 28904|app: 0|req: 2/4] 223.71.212.161 () {42 vars in 804 bytes} [Mon Oct 10 10:47:46 2016] GET /article/?id=6 => generated 111710 bytes in 53 msecs (HTTP/1.1 200) 5 headers in 268 bytes (1 switches on core 0)
+[pid: 28905|app: 0|req: 2/5] 223.71.212.161 () {40 vars in 783 bytes} [Mon Oct 10 10:47:46 2016] GET /media/article_img/root1474277415.jpg => generated 65185 bytes in 35 msecs via sendfile() (HTTP/1.1 200) 6 headers in 201 bytes (0 switches on core 0)
+./redbutterfly/urls.py:35: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
+
+[pid: 28906|app: 0|req: 1/6] 223.71.212.161 () {42 vars in 791 bytes} [Mon Oct 10 10:47:49 2016] GET / => generated 164418 bytes in 313 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+Not Found: /sysinfo
+[pid: 28904|app: 0|req: 3/7] 223.71.212.161 () {42 vars in 725 bytes} [Mon Oct 10 10:47:54 2016] GET /sysinfo => generated 0 bytes in 6 msecs (HTTP/1.1 301) 4 headers in 153 bytes (1 switches on core 0)
+[pid: 28905|app: 0|req: 3/8] 223.71.212.161 () {42 vars in 727 bytes} [Mon Oct 10 10:47:54 2016] GET /sysinfo/ => generated 53 bytes in 184 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 28904|app: 0|req: 4/9] 223.71.212.161 () {42 vars in 727 bytes} [Mon Oct 10 10:47:55 2016] GET /sysinfo/ => generated 53 bytes in 185 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 28905|app: 0|req: 4/10] 223.71.212.161 () {42 vars in 727 bytes} [Mon Oct 10 10:47:55 2016] GET /sysinfo/ => generated 53 bytes in 183 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 28904|app: 0|req: 5/11] 223.71.212.161 () {42 vars in 727 bytes} [Mon Oct 10 10:47:56 2016] GET /sysinfo/ => generated 53 bytes in 183 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 28905|app: 0|req: 5/12] 223.71.212.161 () {42 vars in 727 bytes} [Mon Oct 10 10:47:56 2016] GET /sysinfo/ => generated 54 bytes in 184 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 28904|app: 0|req: 6/13] 223.71.212.161 () {42 vars in 727 bytes} [Mon Oct 10 10:47:57 2016] GET /sysinfo/ => generated 53 bytes in 184 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 28905|app: 0|req: 6/14] 223.71.212.161 () {42 vars in 727 bytes} [Mon Oct 10 10:47:57 2016] GET /sysinfo/ => generated 53 bytes in 185 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 28904|app: 0|req: 7/15] 223.71.212.161 () {42 vars in 727 bytes} [Mon Oct 10 10:47:57 2016] GET /sysinfo/ => generated 53 bytes in 184 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 28904|app: 0|req: 8/16] 101.226.125.103 () {38 vars in 628 bytes} [Mon Oct 10 10:50:46 2016] GET /article/?id=6 => generated 111711 bytes in 56 msecs (HTTP/1.1 200) 5 headers in 268 bytes (1 switches on core 0)
+Not Found: /phpMyAdmin/scripts/setup.php
+[pid: 28904|app: 0|req: 9/17] 182.61.29.233 () {26 vars in 378 bytes} [Mon Oct 10 11:44:07 2016] GET /phpMyAdmin/scripts/setup.php => generated 3159 bytes in 8 msecs (HTTP/1.1 404) 4 headers in 133 bytes (1 switches on core 0)
+Not Found: /pma/scripts/setup.php
+[pid: 28905|app: 0|req: 7/18] 182.61.29.233 () {26 vars in 364 bytes} [Mon Oct 10 11:44:07 2016] GET /pma/scripts/setup.php => generated 3138 bytes in 9 msecs (HTTP/1.1 404) 4 headers in 133 bytes (1 switches on core 0)
+Not Found: /myadmin/scripts/setup.php
+[pid: 28904|app: 0|req: 10/19] 182.61.29.233 () {26 vars in 372 bytes} [Mon Oct 10 11:44:07 2016] GET /myadmin/scripts/setup.php => generated 3150 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 133 bytes (1 switches on core 0)
+[pid: 28904|app: 0|req: 11/20] 123.151.42.61 () {34 vars in 439 bytes} [Mon Oct 10 12:22:44 2016] GET / => generated 164434 bytes in 260 msecs (HTTP/1.1 200) 4 headers in 141 bytes (1 switches on core 0)
+Not Found: /muieblackcat
+[pid: 28904|app: 0|req: 12/21] 93.158.200.68 () {34 vars in 454 bytes} [Mon Oct 10 13:15:37 2016] GET /muieblackcat => generated 3111 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 133 bytes (1 switches on core 0)
+Not Found: /pma/scripts/setup.php
+[pid: 28905|app: 0|req: 8/22] 93.158.200.68 () {34 vars in 473 bytes} [Mon Oct 10 13:15:37 2016] GET //pma/scripts/setup.php => generated 3138 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 133 bytes (1 switches on core 0)
+Not Found: /mysql/scripts/setup.php
+[pid: 28906|app: 0|req: 2/23] 93.158.200.68 () {34 vars in 477 bytes} [Mon Oct 10 13:15:38 2016] GET //mysql/scripts/setup.php => generated 3144 bytes in 8 msecs (HTTP/1.1 404) 4 headers in 133 bytes (1 switches on core 0)
+Not Found: /mysqladmin/scripts/setup.php
+[pid: 28904|app: 0|req: 13/24] 93.158.200.68 () {34 vars in 487 bytes} [Mon Oct 10 13:15:42 2016] GET //mysqladmin/scripts/setup.php => generated 3159 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 133 bytes (1 switches on core 0)
+Not Found: /MyAdmin/scripts/setup.php
+[pid: 28905|app: 0|req: 9/25] 93.158.200.68 () {34 vars in 481 bytes} [Mon Oct 10 13:15:43 2016] GET //MyAdmin/scripts/setup.php => generated 3150 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 133 bytes (1 switches on core 0)
+Not Found: /myadmin/scripts/setup.php
+[pid: 28906|app: 0|req: 3/26] 93.158.200.68 () {34 vars in 481 bytes} [Mon Oct 10 13:15:44 2016] GET //myadmin/scripts/setup.php => generated 3150 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 133 bytes (1 switches on core 0)
+Not Found: /phpmyadmin/scripts/setup.php
+[pid: 28904|app: 0|req: 14/27] 93.158.200.68 () {34 vars in 487 bytes} [Mon Oct 10 13:15:48 2016] GET //phpmyadmin/scripts/setup.php => generated 3159 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 133 bytes (1 switches on core 0)
+Not Found: /cache/global/img/gs.gif
+[pid: 28904|app: 0|req: 15/28] 163.172.173.181 () {30 vars in 451 bytes} [Mon Oct 10 16:26:41 2016] GET /cache/global/img/gs.gif => generated 3144 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 133 bytes (1 switches on core 0)
+[pid: 28904|app: 0|req: 16/29] 183.129.160.229 () {36 vars in 617 bytes} [Mon Oct 10 20:07:49 2016] GET / => generated 164418 bytes in 218 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+Not Found: /phpmyadmin/index.php
+Not Found: /sql/index.php
+Not Found: /pmd/index.php
+[pid: 28906|app: 0|req: 4/30] 180.97.30.196 () {28 vars in 377 bytes} [Tue Oct 11 01:19:23 2016] GET /sql/index.php => generated 3114 bytes in 12 msecs (HTTP/1.1 404) 4 headers in 133 bytes (1 switches on core 0)
+[pid: 28904|app: 0|req: 17/31] 180.97.30.196 () {28 vars in 391 bytes} [Tue Oct 11 01:19:23 2016] GET /phpmyadmin/index.php => generated 3135 bytes in 20 msecs (HTTP/1.1 404) 4 headers in 133 bytes (1 switches on core 0)
+[pid: 28901|app: 0|req: 2/32] 180.97.30.196 () {28 vars in 377 bytes} [Tue Oct 11 01:19:23 2016] GET /pmd/index.php => generated 3114 bytes in 19 msecs (HTTP/1.1 404) 4 headers in 133 bytes (1 switches on core 0)
+[pid: 28904|app: 0|req: 18/33] 186.124.218.137 () {36 vars in 546 bytes} [Tue Oct 11 02:03:39 2016] GET / => generated 164434 bytes in 252 msecs (HTTP/1.0 200) 4 headers in 141 bytes (1 switches on core 0)

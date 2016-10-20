@@ -2,11 +2,13 @@
 from django.shortcuts import render,render_to_response,HttpResponseRedirect
 from django.contrib.auth import authenticate,login as auth_login,logout as auth_logout
 from django.http import JsonResponse
-from .models import * 
-from redpackage.aboutsys.getsysinfo import *
 from django.core.cache import cache
 from django.conf import settings
 from markdown import markdown
+
+from redpackage.aboutsys.getsysinfo import *
+
+from .models import * 
 
 # Create your views here.
 
@@ -40,9 +42,9 @@ def index(request):
 	articles_line2 = []
 	for i,article in enumerate(artclelist):
 		if i <= 2:
-			articles_line1.append({"title":article.title,"summary":article.summary,"date":article.last_mod_time})
+			articles_line1.append({"id":article.id,"title":article.title,"summary":article.summary,"date":article.last_mod_time,"comment":article.get_comment_number()})
 		elif i <= 5:
-			articles_line2.append({"title":article.title,"summary":article.summary,"date":article.last_mod_time})
+			articles_line2.append({"id":article.id,"title":article.title,"summary":article.summary,"date":article.last_mod_time,"comment":article.get_comment_number()})
 		else:
 			break
 			
@@ -82,8 +84,12 @@ def login(request):
 					auth_login(request,user)
 					login_alert = u"登陆成功"	
 					error['login_error'] = "False" 
-					response = HttpResponseRedirect( '/' )
-					return response
+					
+					try:
+						url = request.GET['next']
+					except:
+						url = '/'
+					return HttpResponseRedirect(url)
 				else:
 					login_alert = u"用户名或密码错误"	
 					error['login_error'] = "True" 

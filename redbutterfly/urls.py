@@ -27,9 +27,12 @@ urlpatterns = [
 	url(r'^$', index_views.index, name='index'),
 	url(r'^login/$', index_views.login, name='login'),
 	url(r'^article/$', article_views.article, name='article'),
+	url(r'^article/setting/$', article_views.edit_article, name='edit_article'),
 	url(r'^articlelist/$', article_views.articlelist, name='articlelist'),
-	url(r'^article/add/$', article_views.edit_article, name='edit_article'),
+	url(r'^articlelist/setting/$', article_views.articlelist_edit, name='articlelist_edit'),
+	url(r'^comments/$', article_views.add_comment, name='add_comment'), 
 	url(r'^sysinfo/$',index_views.sysinfo, name='sysinfo'),
+	url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
 	url(r'^admin/', admin.site.urls),
 	
 ]

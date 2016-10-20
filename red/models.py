@@ -16,10 +16,11 @@ class User(AbstractUser):
 	country = models.CharField(u'国家',max_length=30,blank=True)
 	qq = models.CharField(u'QQ',max_length=15,blank=True)
 	phone = models.CharField(u'电话',max_length=15,blank=True)
-	heading = models.ImageField(u'头像',blank=True)
+	heading = models.ImageField(u'头像',upload_to='user_img',blank=True)
 
 	def __unicode__(self):
 		return self.username	
+
 
 class Tag(models.Model):
 	tagname = models.CharField(u'标签名称',max_length=30)
@@ -39,7 +40,7 @@ class Tag(models.Model):
 
 	
 
-class blogtype(models.Model):
+class Blogtype(models.Model):
 	typename = models.CharField(u'类型名称',max_length=30)
 	count = models.IntegerField(u'作品数量')
 	tips = models.IntegerField(u'类型访问量')
@@ -58,7 +59,7 @@ class blogtype(models.Model):
 class Article(models.Model):
 	title = models.CharField(u'标题',max_length=100)
 
-	typefor = models.ForeignKey(blogtype)
+	typefor = models.ForeignKey(Blogtype)
 	auther = models.ForeignKey(User,default="")
 	tags = models.ManyToManyField(Tag)
 
@@ -68,6 +69,8 @@ class Article(models.Model):
 	publishtime = models.DateTimeField(u'上传时间',auto_now_add=True)
 	last_mod_time = models.DateTimeField(u'修改时间',auto_now=True)
 	readtimes = models.IntegerField(u'阅读量',default=0)
+
+	workimg = models.ImageField(u'图片',upload_to='article_img',blank=True)
 
 	def save(self,*args,**kwargs):
 		add_new = False
@@ -90,6 +93,10 @@ class Article(models.Model):
 	def get_tags(self):
 		tags = self.tags.all()
 		return tags
+	
+	def get_comment_number(self):
+		commentlist = Comment.objects.filter(blog=self)
+		return len(commentlist)	
 
 	def get_pre_article(self):
 		"""
@@ -130,7 +137,7 @@ class Article(models.Model):
 
 class Comment(models.Model):
 	user = models.CharField(u'用户名称',max_length=30)
-	blog = models.OneToOneField(Article)	
+	blog = models.ForeignKey(Article)
 	email = models.EmailField(u'邮箱',blank=True)
 	content = models.TextField(u'评论内容')
 	replaytime = models.DateTimeField(u'评论时间',auto_now_add=True)
