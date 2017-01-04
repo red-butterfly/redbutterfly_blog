@@ -117,7 +117,7 @@
                                     <div class="blog-page blog-content-1">
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                {% for article in articles_line1 %}
+                                                {% for article in articles_line %}
                                                     {% if forloop.counter == 1 %}
                                                     <div class="blog-post-lg bordered blog-container">
                                                         <div class="blog-post-content">
@@ -128,7 +128,7 @@
                                                             <div class="blog-post-foot">
                                                                 <div class="blog-post-meta">
                                                                     <i class="icon-calendar font-blue"></i>
-                                                                    <a href="javascript:;">{{ article.date }}</a>
+                                                                    <a href="javascript:;">{{ article.last_mod_time }}</a>
                                                                 </div>
                                                                 <div class="blog-post-meta">
                                                                     <i class="icon-bubble font-blue"></i>
@@ -141,6 +141,7 @@
                                                         {% if forloop.counter == 2 %}
                                                     <div class="row">
                                                         {% endif %}
+                                                        {% if forloop.counter == 2 or forloop.counter == 3 %}
                                                         <div class="col-sm-6">
                                                             <div class="blog-post-sm bordered blog-container">
                                                                 <div class="blog-post-content">
@@ -151,7 +152,7 @@
                                                                     <div class="blog-post-foot">
                                                                         <div class="blog-post-meta">
                                                                             <i class="icon-calendar font-blue"></i>
-                                                                            <a href="javascript:;">{{ article.date }}</a>
+                                                                            <a href="javascript:;">{{ article.last_mod_time }}</a>
                                                                         </div>
                                                                         <div class="blog-post-meta">
                                                                             <i class="icon-bubble font-blue"></i>
@@ -161,6 +162,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        {% endif %}
                                                         {% if forloop.counter == 3 %}    
                                                     </div>
                                                         {% endif %}
@@ -168,8 +170,8 @@
                                                 {% endfor %}
                                             </div>
                                             <div class="col-lg-6">
-                                                {% for article in articles_line2 %}
-                                                    {% if forloop.counter == 3 %}
+                                                {% for article in articles_line %}
+                                                    {% if forloop.counter == 6 %}
                                                     <div class="blog-post-lg bordered blog-container">
                                                         <div class="blog-post-content">
                                                             <h2 class="blog-title blog-post-title">
@@ -179,7 +181,7 @@
                                                             <div class="blog-post-foot">
                                                                 <div class="blog-post-meta">
                                                                     <i class="icon-calendar font-blue"></i>
-                                                                    <a href="javascript:;">{{ article.date }}</a>
+                                                                    <a href="javascript:;">{{ article.last_mod_time }}</a>
                                                                 </div>
                                                                 <div class="blog-post-meta">
                                                                     <i class="icon-bubble font-blue"></i>
@@ -189,9 +191,10 @@
                                                         </div>
                                                     </div>
                                                     {% else %}
-                                                        {% if forloop.counter == 1 %}
+                                                        {% if forloop.counter == 4 %}
                                                     <div class="row">
                                                         {% endif %}
+                                                        {% if forloop.counter == 4 or forloop.counter == 5 %}
                                                         <div class="col-sm-6">
                                                             <div class="blog-post-sm bordered blog-container">
                                                                 <div class="blog-post-content">
@@ -202,7 +205,7 @@
                                                                     <div class="blog-post-foot">
                                                                         <div class="blog-post-meta">
                                                                             <i class="icon-calendar font-blue"></i>
-                                                                            <a href="javascript:;">{{ article.date }}</a>
+                                                                            <a href="javascript:;">{{ article.last_mod_time }}</a>
                                                                         </div>
                                                                         <div class="blog-post-meta">
                                                                             <i class="icon-bubble font-blue"></i>
@@ -212,7 +215,8 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        {% if forloop.counter == 2 %}    
+                                                        {% endif %}
+                                                        {% if forloop.counter == 5 %}
                                                     </div>
                                                         {% endif %}
                                                     {% endif %}

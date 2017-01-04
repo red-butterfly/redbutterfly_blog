@@ -11,21 +11,28 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 """
 
 import os
+import logging
+from util.log_util import *
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'mpjq@%1+hv@j90oxs0spt&9#4xeg0#g_n&9nnb)v_$-oz4!39$'
 
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+
+#default ini
+DEFAULT_CONFIG_FILE = os.path.join(BASE_DIR, "conf/server.ini")
+
+SECTION_REDIS = 'redis_server'
+SECTION_LOGGER = 'server_log'
+
+#logger info define
+SERVICE_LOGGERFILE = os.path.join(BASE_DIR, "log/project_log/service.log")
+CreatLogger('server', SERVICE_LOGGERFILE, SECTION_LOGGER)
+server_logger = logging.getLogger('server')
 
 
 # Application definition
@@ -37,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'red',
 ]
 
@@ -52,7 +60,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'redbutterfly.urls'
+ROOT_URLCONF = 'conf.urls'
 
 TEMPLATES = [
     {
@@ -83,11 +91,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 	"django.contrib.messages.context_processors.messages"
 )
 
-WSGI_APPLICATION = 'redbutterfly.wsgi.application'
-
-
-# Database
-# https://docs.djangoproject.com/en/1.10/ref/settings/#databases
+WSGI_APPLICATION = 'conf.wsgi.application'
 
 DATABASES = {
     'default': {

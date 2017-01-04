@@ -1,7 +1,7 @@
 <uwsgi>
 	<socket>:9001</socket>
 	<chdir>/home/hanfei/project/django/redbutterfly/redbutterfly_blog</chdir>
-	<wsgi-file>redbutterfly/wsgi.py</wsgi-file>
+	<wsgi-file>conf/wsgi.py</wsgi-file>
 	<module>extension</module>
 	<processes>4</processes>
 </uwsgi>
